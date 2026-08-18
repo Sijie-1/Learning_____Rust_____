@@ -4,7 +4,7 @@ fn main() {
     let errorr: &str = "Please input an only numbers";
     println!("Welcome to the conversor");
     println!("Celsius to Fahrenheit");
-    println!("Please, enter a any grade celsius");
+    println!("Please, enter any grade celsius");
     let mut celsius: String = String::new();
     io::stdin().read_line(&mut celsius).expect("Failed to read the line");
     let celsius: f64 = match celsius.trim().parse() {
