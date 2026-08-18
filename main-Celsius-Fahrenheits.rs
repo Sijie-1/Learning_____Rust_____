@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    let errorr: &str = "Please input an only numbers";
+    let errorr: &str = "Please input only numbers";
     println!("Welcome to the conversor");
     println!("Celsius to Fahrenheit");
     println!("Please, enter any grade celsius");
